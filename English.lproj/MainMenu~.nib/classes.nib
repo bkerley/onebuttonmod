@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {open = id; play = id; }; 
+            CLASS = OBMController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                commentField = NSTextField; 
+                insTable = NSTableView; 
+                pathField = NSTextField; 
+                playButton = NSButton; 
+                titleField = NSTextField; 
+                typeField = NSTextField; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = Player; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

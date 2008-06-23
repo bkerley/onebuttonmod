@@ -1,0 +1,66 @@
+8
+
+dir
+33
+svn+ssh://waitingf.org/home/pubsvn/OneButtonMod/English.lproj/MainMenu.nib
+svn+ssh://waitingf.org/home/pubsvn
+
+
+
+2007-06-09T19:34:51.730775Z
+33
+bkerley
+
+
+svn:special svn:externals svn:needs-lock
+
+objects.nib
+file
+
+
+
+
+2007-05-19T21:36:30.000000Z
+c7d5071c8a0f4db0f0a6b2851ab0c7da
+2007-06-09T19:34:51.730775Z
+33
+bkerley
+has-props
+
+info.nib
+file
+38
+
+
+
+2007-06-13T01:52:50.000000Z
+98c9bcb6a642c8992fc8c91504d168d8
+2007-06-17T21:28:39.245387Z
+38
+bkerley
+
+keyedobjects.nib
+file
+38
+
+
+
+2007-06-13T01:52:50.000000Z
+ef5059dd232e1c9139d4a2e8368537ff
+2007-06-17T21:28:39.245387Z
+38
+bkerley
+has-props
+
+classes.nib
+file
+38
+
+
+
+2007-06-13T01:52:50.000000Z
+26956c88b3ed8338d2c2e4a8b33fc23b
+2007-06-17T21:28:39.245387Z
+38
+bkerley
+

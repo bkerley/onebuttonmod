@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6659BC120C1C6B29003BDA0E /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 6659BC100C1C6B29003BDA0E /* icon-128.png */; };
+		6659BC130C1C6B29003BDA0E /* icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 6659BC110C1C6B29003BDA0E /* icon-256.png */; };
+		6659BC280C1C6C6C003BDA0E /* onebuttonmod.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6659BC270C1C6C6C003BDA0E /* onebuttonmod.icns */; };
+		665C2E0F0957521100AFEE7F /* OBMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C2E0E0957521100AFEE7F /* OBMController.m */; };
+		665C2EE109575FA000AFEE7F /* modplayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 665C2E1C0957555500AFEE7F /* modplayer.c */; };
+		665C2EFD095760AC00AFEE7F /* umx.c in Sources */ = {isa = PBXBuildFile; fileRef = 665C2EFB095760AC00AFEE7F /* umx.c */; };
+		66BA52280C1AFF7300ECBAAC /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BA52270C1AFF7300ECBAAC /* Player.m */; };
+		66BD059D0D4824FE0079372A /* libmikmod-coreaudio.framework in Copy Framework */ = {isa = PBXBuildFile; fileRef = 66BD05880D4823E60079372A /* libmikmod-coreaudio.framework */; };
+		66BD05AD0D48266D0079372A /* libmikmod-coreaudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BD05880D4823E60079372A /* libmikmod-coreaudio.framework */; };
+		66D05BE20957B3FD00A0F330 /* TrackInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D05BE10957B3FD00A0F330 /* TrackInfo.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BD05850D4823E60079372A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BD057F0D4823E60079372A /* libmikmod.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4E3AF2505D43FCC000F1B47;
+			remoteInfo = "Carbon Framework";
+		};
+		66BD05870D4823E60079372A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BD057F0D4823E60079372A /* libmikmod.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4E3AF5C05D43FCC000F1B47;
+			remoteInfo = "CoreAudio Framework";
+		};
+		66BD05890D4823E60079372A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BD057F0D4823E60079372A /* libmikmod.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4E3AF9005D43FCC000F1B47;
+			remoteInfo = "CoreAudio Static Library";
+		};
+		66BD05A60D4825EF0079372A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BD057F0D4823E60079372A /* libmikmod.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E3AF2605D43FCC000F1B47;
+			remoteInfo = "CoreAudio Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6635519B0D481BED001734C9 /* Copy Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				66BD059D0D4824FE0079372A /* libmikmod-coreaudio.framework in Copy Framework */,
+			);
+			name = "Copy Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* OneButtonMod_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneButtonMod_Prefix.pch; sourceTree = "<group>"; };
+		6659BB410C1B4408003BDA0E /* minimikmod.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = minimikmod.h; sourceTree = "<group>"; };
+		6659BC100C1C6B29003BDA0E /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "images/icon-128.png"; sourceTree = "<group>"; };
+		6659BC110C1C6B29003BDA0E /* icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-256.png"; path = "images/icon-256.png"; sourceTree = "<group>"; };
+		6659BC270C1C6C6C003BDA0E /* onebuttonmod.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = onebuttonmod.icns; path = images/onebuttonmod.icns; sourceTree = "<group>"; };
+		665C2E0D0957521100AFEE7F /* OBMController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OBMController.h; sourceTree = "<group>"; };
+		665C2E0E0957521100AFEE7F /* OBMController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OBMController.m; sourceTree = "<group>"; };
+		665C2E1C0957555500AFEE7F /* modplayer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = modplayer.c; sourceTree = "<group>"; };
+		665C2E27095755D100AFEE7F /* modplayer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = modplayer.h; sourceTree = "<group>"; };
+		665C2EFB095760AC00AFEE7F /* umx.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = umx.c; sourceTree = "<group>"; };
+		665C2EFC095760AC00AFEE7F /* umx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = umx.h; sourceTree = "<group>"; };
+		66BA52260C1AFF7300ECBAAC /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		66BA52270C1AFF7300ECBAAC /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		66BD057F0D4823E60079372A /* libmikmod.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libmikmod.xcodeproj; path = "../libmikmod-bkerley/macosx/libmikmod.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		66D05BE00957B3FD00A0F330 /* TrackInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackInfo.h; sourceTree = "<group>"; };
+		66D05BE10957B3FD00A0F330 /* TrackInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackInfo.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* OneButtonMod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneButtonMod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BD05AD0D48266D0079372A /* libmikmod-coreaudio.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				665C2E0D0957521100AFEE7F /* OBMController.h */,
+				665C2E0E0957521100AFEE7F /* OBMController.m */,
+				66D05BE00957B3FD00A0F330 /* TrackInfo.h */,
+				66D05BE10957B3FD00A0F330 /* TrackInfo.m */,
+				66BA52260C1AFF7300ECBAAC /* Player.h */,
+				66BA52270C1AFF7300ECBAAC /* Player.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* OneButtonMod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* OneButtonMod */ = {
+			isa = PBXGroup;
+			children = (
+				66BD057F0D4823E60079372A /* libmikmod.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = OneButtonMod;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6659BB410C1B4408003BDA0E /* minimikmod.h */,
+				665C2EFB095760AC00AFEE7F /* umx.c */,
+				665C2EFC095760AC00AFEE7F /* umx.h */,
+				665C2E27095755D100AFEE7F /* modplayer.h */,
+				665C2E1C0957555500AFEE7F /* modplayer.c */,
+				32CA4F630368D1EE00C91783 /* OneButtonMod_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6659BC270C1C6C6C003BDA0E /* onebuttonmod.icns */,
+				6659BC100C1C6B29003BDA0E /* icon-128.png */,
+				6659BC110C1C6B29003BDA0E /* icon-256.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66BD05800D4823E60079372A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BD05860D4823E60079372A /* libmikmod-carbon.framework */,
+				66BD05880D4823E60079372A /* libmikmod-coreaudio.framework */,
+				66BD058A0D4823E60079372A /* libmikmod.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* OneButtonMod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669ACA7109562C8C0068ED2B /* Build configuration list for PBXNativeTarget "OneButtonMod" */;
+			buildPhases = (
+				6635519B0D481BED001734C9 /* Copy Framework */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BD05A70D4825EF0079372A /* PBXTargetDependency */,
+			);
+			name = OneButtonMod;
+			productInstallPath = "$(HOME)/Applications";
+			productName = OneButtonMod;
+			productReference = 8D1107320486CEB800E47090 /* OneButtonMod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 669ACA7509562C8C0068ED2B /* Build configuration list for PBXProject "OneButtonMod" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* OneButtonMod */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 66BD05800D4823E60079372A /* Products */;
+					ProjectRef = 66BD057F0D4823E60079372A /* libmikmod.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* OneButtonMod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		66BD05860D4823E60079372A /* libmikmod-carbon.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "libmikmod-carbon.framework";
+			remoteRef = 66BD05850D4823E60079372A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		66BD05880D4823E60079372A /* libmikmod-coreaudio.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "libmikmod-coreaudio.framework";
+			remoteRef = 66BD05870D4823E60079372A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		66BD058A0D4823E60079372A /* libmikmod.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmikmod.a;
+			remoteRef = 66BD05890D4823E60079372A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				6659BC120C1C6B29003BDA0E /* icon-128.png in Resources */,
+				6659BC130C1C6B29003BDA0E /* icon-256.png in Resources */,
+				6659BC280C1C6C6C003BDA0E /* onebuttonmod.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				665C2E0F0957521100AFEE7F /* OBMController.m in Sources */,
+				665C2EE109575FA000AFEE7F /* modplayer.c in Sources */,
+				665C2EFD095760AC00AFEE7F /* umx.c in Sources */,
+				66D05BE20957B3FD00A0F330 /* TrackInfo.m in Sources */,
+				66BA52280C1AFF7300ECBAAC /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66BD05A70D4825EF0079372A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CoreAudio Framework";
+			targetProxy = 66BD05A60D4825EF0079372A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		669ACA7209562C8C0068ED2B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OneButtonMod_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = OneButtonMod;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Development;
+		};
+		669ACA7309562C8C0068ED2B /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OneButtonMod_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/libmikmod-coreaudio.framework/Versions/A/Headers",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = OneButtonMod;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		669ACA7409562C8C0068ED2B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OneButtonMod_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/libmikmod-coreaudio.framework/Versions/A/Headers",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = OneButtonMod;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		669ACA7609562C8C0068ED2B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+			};
+			name = Development;
+		};
+		669ACA7709562C8C0068ED2B /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		669ACA7809562C8C0068ED2B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669ACA7109562C8C0068ED2B /* Build configuration list for PBXNativeTarget "OneButtonMod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669ACA7209562C8C0068ED2B /* Development */,
+				669ACA7309562C8C0068ED2B /* Deployment */,
+				669ACA7409562C8C0068ED2B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		669ACA7509562C8C0068ED2B /* Build configuration list for PBXProject "OneButtonMod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669ACA7609562C8C0068ED2B /* Development */,
+				669ACA7709562C8C0068ED2B /* Deployment */,
+				669ACA7809562C8C0068ED2B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
