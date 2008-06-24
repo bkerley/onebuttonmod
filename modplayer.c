@@ -24,7 +24,11 @@ int initPlayer() {
 	MikMod_RegisterAllDrivers();
 	MikMod_RegisterAllLoaders();
 	
-	md_mode |= DMODE_SOFT_MUSIC;
+	md_mode |= DMODE_16BITS |
+	           DMODE_HQMIXER |
+	           DMODE_SURROUND |
+						 DMODE_INTERP |
+	           DMODE_FLOAT;
 	
 	if(MikMod_Init("")) {
 		fprintf(stderr, "Error: %s\n",
