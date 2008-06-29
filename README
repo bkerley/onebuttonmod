@@ -1,0 +1,3 @@
+Make sure you get libmikmod-bkerley from github before you
+try and build this.  If you don't it'll fail (and you'll
+fail too.)
